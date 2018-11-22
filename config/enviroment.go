@@ -3,7 +3,7 @@ package config
 // Port for server main
 var (
 	Port     = "3033"
-	FilePort = "3032"
+	FilePort = "3034"
 )
 
 // Constants for environment.
