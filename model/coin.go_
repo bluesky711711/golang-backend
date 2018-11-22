@@ -1,0 +1,11 @@
+package model
+
+import "time"
+
+// Customers is a customers model
+type WithDrawlInfo struct {
+	UserType     uint          `json:"id" "user_type"`
+	CoinAmount    uint64        `json:"coin_amount"  gorm:"column:coin_amount"`
+	UserID      uint        `json:"user_id"  gorm:"column:user_id"`
+	ToAddress  string        `json:"to_address"  gorm:"column:to_address"`
+}
